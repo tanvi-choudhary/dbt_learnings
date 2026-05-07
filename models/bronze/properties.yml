@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: bronze_products
+    columns:
+      - name: category
+        tests:
+          - accepted_values:
+              arguments: 
+                values: ['Gizmo','Gadget','Doohickey','Widget']
